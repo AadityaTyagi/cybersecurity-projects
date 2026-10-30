@@ -1,0 +1,10 @@
+--- Test A: clean restore ---
+Verified OK : 6/6
+Restore time: 0.001s
+RESULT: PASS
+
+--- Test B: corrupted + missing file ---
+Verified OK : 4/6
+Corrupted   : ['invoices/inv_2.txt']
+Missing     : ['clients.csv']
+RESULT: FAIL
